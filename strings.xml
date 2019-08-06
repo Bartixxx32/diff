@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
     <string name="abc_action_mode_done">Done</string>
@@ -67,6 +69,8 @@
     <string name="adv_settings_customized_modes_description">Select your preferred modes to show on start-up screen; swipe up to show all.</string>
     <string name="adv_settings_customized_modes_subtitle">Select preferred modes to show on splash screen</string>
     <string name="adv_settings_customized_modes_title">Custom modes</string>
+    <string name="adv_settings_focus_tracking">Focus Tracking</string>
+    <string name="adv_settings_focus_tracking_description">Focus tracking keeps moving people, cats and dogs always in focus. Available in PHOTO and VIDEO modes.</string>
     <string name="adv_settings_front_camera_mirror">Mirrored photo</string>
     <string name="adv_settings_general_settings">General</string>
     <string name="adv_settings_grid">Grid</string>
@@ -94,6 +98,8 @@
     <string name="adv_settings_smile_capture">Smile Capture</string>
     <string name="adv_settings_smile_capture_description">Automatically take photos when smiles are detected</string>
     <string name="adv_settings_storage">Save to SD card</string>
+    <string name="adv_settings_tripod_long_exposure">Tripod long exposure</string>
+    <string name="adv_settings_tripod_long_exposure_description">When the phone is steady or on a tripod, enable camera to take 8s-30s long exposure shots</string>
     <string name="adv_settings_ultra_wide_lens_correction">Ultra Wide Lens Correction</string>
     <string name="adv_settings_video_frame_rate">High Video Frame Rate</string>
     <string name="adv_settings_video_resolution">Video resolution</string>
@@ -111,6 +117,7 @@
     <string name="app_video_name">Camcorder</string>
     <string name="appbar_scrolling_view_behavior">com.oneplus.lib.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="back_button_label">Back</string>
+    <string name="barcode_chip_text">Scan barcode</string>
     <string name="bokeh_hint">Depth effect</string>
     <string name="bokeh_hint_camera_is_covered">Camera obstructed</string>
     <string name="bokeh_hint_low_light">More light required</string>
@@ -195,6 +202,7 @@
     <string name="dummy_camera_lib">Dummy</string>
     <string name="dummy_gallery_lib">Dummy</string>
     <string name="error_action_not_found">This app not found on your device.</string>
+    <string name="error_app_not_found">This app not found on your device.</string>
     <string name="error_barcode_lookup">Barcode lookup failed.</string>
     <string name="error_barcode_no_results">No matching products found.</string>
     <string name="error_camera_device">Camera device error</string>
@@ -234,6 +242,7 @@
     <string name="flash_disabled_high_device_temperature">Flash disabled due to high temperature</string>
     <string name="flash_disabled_low_battery_level">Flash disabled due to low battery</string>
     <string name="flash_disabled_low_battery_temperature">Flash disabled due to low battery temperature</string>
+    <string name="flash_disabled_macro_lens">Flash is disabled in macro mode</string>
     <string name="flash_disabled_ultra_wide_camera">Flash disabled under ultra wide zoom</string>
     <string name="flash_disabled_using_scene">Flash disabled by %s</string>
     <string name="flash_disabled_using_wifi_hotspot">Flash disabled due to WIFI hot-spot</string>
@@ -267,6 +276,7 @@ Touch &amp; hold to do more"</string>
     <string name="h2_permissions_title">Request permissions</string>
     <string name="hint_address">Address</string>
     <string name="hint_email">Email</string>
+    <string name="hint_hdr">HDR</string>
     <string name="hint_person_name">Person Name</string>
     <string name="hint_phone">Phone Number</string>
     <string name="hint_url">Website</string>
@@ -289,6 +299,7 @@ Touch &amp; hold to do more"</string>
     <string name="lens_generic_error">Something went wrong. Try again.</string>
     <string name="lens_insufficient_storage">Free up storage space.</string>
     <string name="lens_title">Google Lens</string>
+    <string name="macro_lens_hint">Place the subject 2.5cm-8cm away in macro mode.</string>
     <string name="manual_mode_auto">Auto</string>
     <string name="manual_mode_awb_cloudy">Cloudy</string>
     <string name="manual_mode_awb_daylight">Daylight</string>
@@ -382,7 +393,7 @@ Touch &amp; hold to do more"</string>
     <string name="qr_wifi_error_password_invalid">QR code contains incorrect Wi-Fi password</string>
     <string name="qr_wifi_error_ssid_invalid">QR code contains incorrect Wi-Fi network name</string>
     <string name="qr_wifi_successfully_connecting">Connecting to %s…</string>
-    <string name="raid1_display_name">RAID-1</string>
+    <string name="raid1_display_name">RAID</string>
     <string name="resolution_video_1080p">Full HD</string>
     <string name="resolution_video_1080p_240fps">Slow motion</string>
     <string name="resolution_video_2160p">UHD</string>
@@ -394,6 +405,9 @@ Touch &amp; hold to do more"</string>
     <string name="scene_enable">%s is ON</string>
     <string name="scene_face_beauty_photo">Beauty</string>
     <string name="scene_hdr">HDR</string>
+    <string name="screen_hint_flash_text">Flash on</string>
+    <string name="screen_hint_macro_text">Super macro</string>
+    <string name="screen_hint_pinch_zoom_not_available_under_front_camera">Pinch zoom is not available under front camera</string>
     <string name="search_menu_title">Search</string>
     <string name="searchview_description_clear">Clear query</string>
     <string name="searchview_description_search">Search</string>
@@ -422,6 +436,7 @@ Touch &amp; hold to do more"</string>
     <string name="smart_hint_try_portrait_mode">Try Portrait Mode</string>
     <string name="smile_capture_off">Smile Capture  OFF</string>
     <string name="smile_capture_on">Smile Capture  ON</string>
+    <string name="snpe_name">Snapdragon Neural Processing Engine</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_manager_sdcard_unmounted">SD card unavailable. Default storage has been changed to device memory.</string>
     <string name="storage_manager_sdcard_unmounted_stop_recording">Recording has stopped because SD card is unavailable. Changing storage location to device memory.</string>
@@ -485,4 +500,8 @@ You can turn it off in Setting"</string>
     <string name="zoom_value_3x_lens_text">3</string>
     <string name="zoom_value_ultra_wide_lens_text">Ultra Wide</string>
     <string name="zoom_value_x_text">×</string>
+    <item type="string" name="APKTOOL_DUMMY_3b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_86">false</item>
+    <item type="string" name="APKTOOL_DUMMY_87">false</item>
 </resources>
